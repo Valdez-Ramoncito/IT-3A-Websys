@@ -10,15 +10,15 @@
         $grade = "A";
         $remark = "Outstanding Performance!";
     }
-    else if($score >= 86 && $score < 95 ){
+    else if($score >= 90 && $score <= 94 ){
         $grade = "B";
         $remark = "Great Job!";
     }
-    else if($score >= 80 && $score < 86 ){
+    else if($score >= 85 && $score <= 89 ){
         $grade = "C";
         $remark = "Good Effort, keep it up!";
     }
-    else if($score > 74 && $score < 80 ){
+    else if($score >= 75 && $score <= 84 ){
         $grade = "D";
         $remark = "Work harder next time.";
     }
